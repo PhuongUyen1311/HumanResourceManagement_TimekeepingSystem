@@ -1,0 +1,6 @@
+# 1. Biên dịch lại (Do chúng ta vừa sửa code DBConnection)
+$javaFiles = Get-ChildItem -Path src -Recurse -Filter *.java | ForEach-Object { $_.FullName }
+javac -d bin -cp "lib/mssql-jdbc-13.4.0.jre11.jar" -encoding utf8 $javaFiles
+
+# 2. Chạy ứng dụng
+java -cp "bin;lib/mssql-jdbc-13.4.0.jre11.jar" com.qlns.main.MainApp

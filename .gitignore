@@ -1,0 +1,25 @@
+# Java compiled files
+*.class
+bin/
+out/
+
+# IDE specific files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Database scripts (optional: keep if you want to push SQL files)
+# *.sql
+
+# Note: The 'lib/' folder is NOT ignored because you are managing JARs manually.
+# If you switch to Maven/Gradle, you should add 'lib/' to this file.
