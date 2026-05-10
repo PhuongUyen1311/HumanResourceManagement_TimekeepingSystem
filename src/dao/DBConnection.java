@@ -13,8 +13,8 @@ public class DBConnection {
     private static final String DB_NAME = "QuanLyNhanSu";
 
     // ✅ TÀI KHOẢN SQL SERVER (Vui lòng kiểm tra lại sa/password)
-    private static final String USER = "sa";
-    private static final String PASSWORD = "12345678";
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     // ✅ Connection URL
     private static final String CONNECTION_URL = "jdbc:sqlserver://" + SERVER_NAME + ":" + PORT +
